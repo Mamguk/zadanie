@@ -15,5 +15,5 @@ class Booking {
         $stmt->bind_param('i', $booking_id);
         return $stmt->execute();
     }
-    // ... existing code ...
+
 }
